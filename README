@@ -1,0 +1,11 @@
+/*
+	Author       : pratik singh lad
+	Created Date : 29-04-2020
+	web worker example with timer on the worker thread and api on the ui thread.
+*/
+This File has index.html which consits of :
+--index.html   - which consits of ui start and stop timer
+--index.js     - which consits of timer click event,api call,binding the data and calling the web worker.
+--webWorker.js - whic consits of webWorker thread which runs in another thread that of ui.
+
+make use of web server chrome or any other server for running the app 
